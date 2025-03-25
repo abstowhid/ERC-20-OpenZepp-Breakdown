@@ -21,6 +21,38 @@ string private _symbol;
 
 
 
+2️⃣ Constructor
+constructor(string memory name_, string memory symbol_) {
+    _name = name_;
+    _symbol = symbol_;
+}
+
+//Takes name and symbol as inputs and sets them.
+//These values are immutable after deployment.
+
+3️⃣ Basic ERC-20 Functions
+Token Information (View Functions)
+
+
+function name() public view virtual returns (string memory) {
+    return _name;
+}
+
+function symbol() public view virtual returns (string memory) {
+    return _symbol;
+}
+
+function decimals() public view virtual returns (uint8) {
+    return 18;
+}
+
+function totalSupply() public view virtual returns (uint256) {
+    return _totalSupply;
+}
+
+function balanceOf(address account) public view virtual returns (uint256) {
+    return _balances[account];
+}
 
 
 
