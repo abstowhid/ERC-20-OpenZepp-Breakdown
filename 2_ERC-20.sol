@@ -56,6 +56,15 @@ function balanceOf(address account) public view virtual returns (uint256) {
 
 
 
+4️⃣ Token Transfers
+function transfer(address to, uint256 value) public virtual returns (bool) {
+    address owner = _msgSender();
+    _transfer(owner, to, value);
+    return true;
+}
+
+
+
 
 
 
