@@ -1,1 +1,5 @@
 //nedded to customize token
+
+@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol
+@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol
+@openzeppelin/contracts/token/ERC20/extensions/ERC20Snapshot.sol
