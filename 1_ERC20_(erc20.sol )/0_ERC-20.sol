@@ -1,7 +1,15 @@
-//there are too maany functions and import in that repo,
+//Forget and don't watch this repo if too much
+@openzeppelin/contracts/token/ERC20/ERC20.sol
 
+// in Openzep===================================================================
+//there are too maany functions and import in that repo,
 import .....interface
 contract ERC20 is Interfaces{
+//here all code
+}
+//For My code editor====================================================================
+import @openzeppelin/contracts/token/ERC20/ERC20.sol
+contract MyToken is ERC20{
 //here all code
 }
 /////========================================================
